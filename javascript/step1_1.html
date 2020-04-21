@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Step1_javascript</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            h1 {
+              font-size: 18px;
+              color: blue;
+            }
+          </style>  
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+          <!-- head 에 사용시
+         <script>           
+            $(function(){  
+            //$(document).ready(function(){   해당 문장으로도 사용가능 html 문서가 로딩이되면 시작
+              document.getElementById('contents').innerText = '웹 프로그래밍이 무엇일까요?';
+              document.querySelector('#contents').innerText = '웹 프로그래밍이 무엇일까요?';       
+              document.querySelectorAll('p')[0].innerText = '웹 프로그래밍이 무엇일까요?';    
+              $('#contents').text('웹 프로그래밍이 무엇일까요?');
+            });
+          </script>
+          -->           
+    </head>
+    <body>
+        <h1>Web Programming</h1>
+        <p id="contents"></p>
+        <script type="text/javascript">
+          document.getElementById('contents').innerText = '웹 프로그래밍이 무엇일까요?';
+          document.querySelector('#contents').innerText = '웹 프로그래밍이 무엇일까요?';
+          document.querySelectorAll('p')[0].innerText = '웹 프로그래밍이 무엇일까요?';
+          $('#contents).text('웹 프로그래밍이 무엇일까요?');
+        </script>
+    </body>
+</html>
