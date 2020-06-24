@@ -1,0 +1,19 @@
+{
+  "items" : [
+    { "id": 1, "title": "29cm", "subTitle": "UI/UX Concept Design", "thumb": "thumb_29cm", "detailImg": ["29cm_00", "29cm_01", "29cm_02", "29cm_03", "29cm_04"], "category": "Design", "description": "this item is.. 01" },
+    { "id": 2, "title": "Conhom", "subTitle": "UI/UX Concept Design", "thumb": "thumb_conhom", "detailImg": ["conhom_00","conhom_01","conhom_02"], "category": "Design", "description": "this item is.. 02" },
+    { "id":3, "title": "Megabox", "subTitle": "UI/UX Concept Design", "thumb": "thumb_megabox", "category": "Design", "description": "this item is.. 03" },
+    { "id":4, "title": "SyncCommerce", "subTitle": "Dashboard Design", "thumb": "thumb_sync", "category": "Design", "description": "this item is.. 04" },
+    { "id":5, "title": "Hyungji", "subTitle": "Dashboard Design", "thumb": "thumb_hyungji", "externalLink": "https://www.naver.com", "category": "Publish", "description": "this item is.. 01" },
+    { "id":6, "title": "Guess", "subTitle": "Dashboard Design", "thumb": "thumb_guess", "category": "Publish", "description": "this item is.. 02" },
+    { "id":7, "title": "Innoio", "subTitle": "Dashboard Design", "thumb": "thumb_innoio", "category": "Publish", "description": "this item is.. 03" },
+    { "id":8, "title": "Volfgang Laib", "subTitle": "Dashboard Design", "thumb": "thumb_volfgang", "category": "Publish", "description": "this item is.. 04" },
+
+    { "id":9, "title":"Volfgang Laib", "subTitle": "Web Design", "thumb": "thumb_volfgang", "category": "Design", "description": "this item is.. 03" },
+    { "id":10," title":"SyncCommerce", "subTitle": "Dashboard Design", "thumb": "thumb_sync", "category": "Design", "description": "this item is.. 04" },
+    { "id":11," title":"29cm", "subTitle": "UI/UX Concept Design", "thumb": "thumb_29cm", "category": "Design", "description": "this item is.. 01" },
+    { "id":12," title":"Conhom", "subTitle": "UI/UX Concept Design", "thumb": "thumb_conhom", "category": "Design", "description": "this item is.. 02" },
+    { "id":9, "title":"Volfgang Laib", "subTitle": "Web Design", "thumb": "thumb_volfgang", "category": "Publish", "description": "this item is.. 03" },
+    { "id":10," title":"SyncCommerce", "subTitle": "Dashboard Design", "thumb": "thumb_sync", "category": "Publish", "description": "this item is.. 04" }
+  ]
+}
