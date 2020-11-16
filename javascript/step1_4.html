@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Step1_javascript</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+        <script>
+          var name = '김기범';
+          let age = 35;
+          const bloodType = 'B';
+          console.log(name);
+          console.log(age);
+          console.log(bloodType);          
+          // 사칙 연산
+          console.log(name + '이라고 합니다.')
+          console.log(age + name)    
+          
+          //값 그룹 짓기
+          let person={
+            name: '김기범',
+            age: 35,
+            bloodType: 'B',
+            live: false,
+            life: {
+              birthday: 1440,
+              home: '서울시 강남구',
+              parent: '김기범',
+              brother: '김기범2'              
+            },
+          };          
+          console.log(person);
+        </script>                        
+    </head>
+    <body>
+        <h1>Javascript 데이타와 상태</h1>
+        <p>
+          모든 값은 계산될 수 있습니다. 계산이란 상식적인 수준의 사칙연산일 수도 있고<br>
+          (계산 대상이 모두 숫자인 경우) 더 넓은 의미로 해석될 수도 있습니다.<br>
+          계산 대상이 모두 숫자가 아닐 경우 규칙에 따라 다양하게 동작됩니다.<br>
+          예를 들어 계산 대상 중 하나가 문자열일 경우 계산 대상 모두를 문자열로<br>
+          변환 후 문자열을 결합하는 계산이 수행됩니다.
+        </p>
+    </body>
+</html>
