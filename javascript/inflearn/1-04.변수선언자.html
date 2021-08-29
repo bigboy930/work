@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>    
+    <script>
+        //var 선안자
+        var x = 5; //변수 x에 5를 저장
+        var y = 6;  //변수 y에 6을 저장
+        var z = x + y; //z에는 11이 저장
+        console.log("x", x);
+        console.log("y", y)
+        console.log("z", z);
+
+        var x = 7; //재선언
+        z = x + y; //이미 선언된 변수에 새로운 값을 할당
+        console.log("x", x);
+        console.log("z", z);
+        //var 의 특징은 재선언이 가능한 부분이 있다.
+
+        //let
+        let x1 = 5; //변수 x1에 5를 저장
+        let y1 = 6; //변수 y1에 6을 저장
+        let z1 = x1 + y1; //z1에는 11이 저장
+        //let은 재선언이 불가능하다.
+        // let x = 7;
+        x1 = 7;
+     
+        //const
+        const PI = 3.14;
+        //const의 경우 절대값으로 한번 선언 후 변경 되지 않는 값이다. 
+
+        //const PI = 2.12;
+        //PI = 2.12;
+    </script>
+</body>
+</html>
