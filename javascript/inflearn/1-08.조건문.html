@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>1-08.조건문</title>
+</head>
+<body>
+    <script>
+        //if, swich
+
+        //if(조건){
+        //    
+        //}
+
+        //if 문    
+        var age = 17; //선언
+        //var isAdult = false; 해당방식으로 선언도 가능
+    
+        if(age > 18) {
+            console.log("당신은 성인입니다.");
+        }else{
+            console.log("당신은 성인이 아닙니다.");
+        }
+
+        //여러 조건일 경우
+        var hour = 22;
+        if(hour < 10){ // 조건을 계속 체크한다
+            console.log("Good morning");
+        }else if(hour < 18) {
+            console.log("Good afternoon");
+        }else if(hour < 21){
+            console.log("Good evening");
+        }else{ // 조건이 해당안될경우 의 값
+            console.log("Good night");
+        }
+
+        //swich 문
+        var d = new Date();
+        var day = d.getDay();
+        console.log(day); //0_일요일 1_월요일 ...
+        var dayName = ""; //문자열 선언
+
+        switch (day) {   //(key) 부분은 상수
+            case 0:
+                dayName = "일요일";          
+                break;
+            case 1:
+                dayName = "월요일";               
+                break;
+            case 2:
+                dayName = "화요일";
+                break;
+            case 3:
+                dayName = "수요일";      
+                break;
+
+            default: //해당 case 가 없을 경우
+                dayName ="";
+            break;
+        }
+        console.log(dayName); //해당 요일 표시
+    </script>
+</body>
+</html>
