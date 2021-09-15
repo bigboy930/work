@@ -5,14 +5,11 @@
 </head>
 <body>
     <script>
-        //test
         //if(){}
-        //test_mac
         //반복문 - 조건이 만족하는 동안에 계속해서 {} 코드를 실행
 
         //for(조건){
         //코드
-
         // }
 
          
@@ -41,13 +38,56 @@
         // }
 
         //for - in
-        for(var idx in numbers){
+        for(var i in numbers){
             //console.log(numbers[i])
-            console.log(numbers[idx]);
+            console.log(numbers[i]);
         }
 
-        //
+        //for - of
+        for(var num of numbers){
+            console.log(num);
+        }
+        
+        var cars = ["Hyndai", "KIA", "Volvo"];
+        for(var car of cars){
+            console.log(car);
+        }
 
+        //for - in
+        var person = {
+            firstName:"John",
+            lastName:"Doe", 
+            age:37
+        };
+        
+        person.firstName;
+        person["firstName"];
+
+        for(var key in person){
+            person.key
+            console.log(person[key]);
+        }
+
+        //while(조건){}
+        var i = 11;
+        var total = 0;
+        while(i <= 10){
+            total = total + i;
+            i++;
+        }while(i <= 10);
+
+        console.log(total);
+
+        //do - while
+        var i = 11;
+        var total = 0;
+        do{
+            total = total + i;
+            i++;
+        }while(i <= 10);
+
+        console.log(total);
+                
     </script>
 </body>
 </html>
