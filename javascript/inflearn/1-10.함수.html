@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>1-10.함수</title>
+</head>
+<body>
+    <script>
+        var x = 10;
+        var vat = 0.1;
+        var tax = 10 * vat;
+        var tax2 = 10 * vat;
+        var tax3 = 10 * vat;
+        var tax4 = 10 * vat;
+        var tax5 = 10 * vat;
+
+        //특정 기능을 수행하도록 작성된 코드 블록
+        //function name(){
+            //코드
+        //}
+
+        //name();
+
+        function calculateTax(profit){
+            var vat = 0.1;
+            var tax = profit * 0.1;
+            //console.log(tax)
+            return(tax);
+        }
+        var tax = calculateTax(10);
+        console.log(tax)
+        
+
+    </script>
+</body>
+</html>
