@@ -4,14 +4,32 @@
     <title>2-01.String</title>
 </head>
 <body>
+    <!-- 20211020 오후 작업 -->
     <script>
         var txt = "ABCDEFGHIJKLMN";
         console.log(txt);
-        console.log(txt.length); // 글자의 길이 -> length
+        console.log(txt.length); //length 글자의 길이
 
         //indexOf
         var str = "Please locate where 'locate'";
-        console.log(str.indexOf("locate"));
+        console.log(str.indexOf("John")); // 해당 문자가 없을경우 -1
+        //console.log(str.indexOf("John"));    시작점은 0 ~
+
+        if(str.indexOf("John") > -1){
+            console.log("locate문자 발견");
+        }
+
+        //lastIndexOf
+        console.log(str.indexOf("locate"));  //해당 문자열 위치 찾기
+
+        //slice
+        var str = "Apple, Banana, Kiwi";
+        console.log(str.slice(7,13));  //선택적으로 가져올수 있다
+        console.log(str.slice(7));
+        console.log(str.slice(-12, 6)); //뒤로넘어간다
+
+        //substring
+        console.log(str.substring(7,13));
 
     </script>
 </body>
