@@ -38,7 +38,20 @@
         console.log(birthday.substr(2, 2));            
 
         var birthday = "1997-05-27";
-        console.log(birthday.substring(0, birthday.indexOf("-")))
+        console.log(birthday.substring(0, birthday.indexOf("-")));
+
+        //repace 원하는 문자로 바꾸고 싶을때 사용
+        var str = "Pleas visit here!";
+        var str2 = str.replace("here", "there"); //here 을 there 로 바꾸기                                
+        console.log(str2)
+        
+        // var str = "Pleas visit here here here!"; 
+        // var str2 = str.replace("here", "there"); //here 을 there 로 바꾸기                                
+        // console.log(str2)                        //발견된 처음 것만 바뀐다   
+
+        var str = "Pleas visit here here here!";
+        var str2 = str.replace(/here/g, "there"); //here 을 there 로 바꾸기 
+        console.log(str2)
 
     </script>
 </body>
