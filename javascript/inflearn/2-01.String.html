@@ -54,6 +54,50 @@
         var str2 = str.replace(/here/g, "there"); //here 을 there 로 바꾸기 
         console.log(str2)
 
+        //uppercase 대문자
+        console.log(str.toUpperCase());
+        
+        //lowercase  소문자
+        console.log(str.toLowerCase());
+        
+        //john
+        //JOHN
+        
+        //데이터베이스 john, John
+        
+        //concat
+        var txt1 = "Hello";
+        var txt2 = "World";
+        var txt3 = txt1 + " " + txt2;
+        console.log(txt3);
+        var txt4 = txt1.concat("  ", txt2);
+        console.log(txt4);
+
+        //trim(쓸데없는 공백을 제거할때)
+        var str = "     Hello World!      "
+        console.log(str); //기존
+        console.log(str.trim()); //trim
+
+        //padStart
+        var str = "15";
+        console.log(str.padStart(2,0));
+    
+        //padEnd
+        console.log(str.padEnd(4,0))
+
+        //charAt
+        var str = "Hello world"
+        console.log(str.charAt(1));
+
+        //split 각자 별개로 불러올때 배열로 불러오기
+        var tags = "키보드, 기계식, 블루투스";
+        var arr = tags.split(",");
+        console.log(arr);
+
+        var birthday = "1986-09-30";
+        var arr2 = birthday.split("-");
+        console.log(arr2);
+
     </script>
 </body>
 </html>
