@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>2-03.Boolean</title>
+</head>
+<body>
+    <script>
+        //Boolean (블리언) 은 예약어 true 나 false 중 하나의 값으로 사용된다.
+
+        var x = true; //false
+        var y = new Boolean(true); //오브젝트형태
+        
+        console.log(x == y); // 둘다 true
+        console.log(x === y); // 타입까지 비교? false
+
+        console.log(typeof x);
+        console.log(typeof y);
+        
+        console.log(Boolean(10 > 9));
+        console.log(10 > 9);
+
+        var x = 0;
+        console.log(x)
+        console.log(Boolean(x));
+
+        var x; //undefined
+        console.log(Boolean(x));
+
+        //var s ="abc";
+        //var s2 = new String("abc");
+        //new Number(3);
+
+        //개인과제 ---------------------------------
+        var flag = 1;
+        if (flag) {
+            console.log('메롱~');
+        }else{
+            console.log('틀렀어~');
+        }
+        
+        //js에는 아래 6개 데이터에 대해서 false 값으로 판단한다
+        // undefined
+        // null 
+        // 0 
+        // -0 
+        // NaN 
+            
+   </script>
+ </body>
+</html>
