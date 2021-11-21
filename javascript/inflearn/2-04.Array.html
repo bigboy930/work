@@ -130,6 +130,53 @@
 
         console.log(jeju);
 
+        var jeju = [];
+
+        for(var i=0 ; i<persons.length ; i++){
+            if(persons[i].city == "제주") {
+                jeju.push(persons[i]);
+            }
+        }
+
+        console.log(jeju);
+
+        //reduce
+        var arr1 = [1,2,3,4];
+        var total = 0;
+        for(var x of arr1){
+            total += x;
+        }
+
+        console.log(total);
+        
+        //reduce
+        //accumultor - 누산기
+        //currenValue - 배열 읽으면서 현재값
+
+        var total = arr1.reduce(function(a,c,i,arr){ 
+            return a + c;
+        });
+
+        console.log(total);
+
+        //map 주로 서버에서 해당 정보를 받아올때 사용한다.
+        var userList = [
+            {firstName:"재석", lastName:"유", email:"yu@gmail.com"},
+            {firstName:"종국", lastName:"김", email:"kim@gmail.com"},                
+            {firstName:"세찬", lastName:"양", email:"yang@gmail.com"},
+            {firstName:"석진", lastName:"지", email:"ji@gmail.com"}
+        ];
+
+        console.log(userList);
+
+        var userList2 = userList.map(function(user){ //user 로 선언
+            return{fullName:user.lastName + user.firstName, firstName:user.firstName, lastName:user.lastName, email:user.email}            
+        });
+
+        console.log(userList2);    
+
+        //filter, map 은 실무에서 많이 사용하기에 중요하다
+
    </script>
  </body>
 </html>

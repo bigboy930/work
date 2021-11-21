@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>2-05.Date</title>
+</head>
+<body>
+    <script>
+
+        var d = new Date(); //현재 날짜/시간
+        console.log(d);
+
+        var year = d.getFullYear();
+        console.log("year", year)
+
+        var month = d.getMonth();
+        console.log("month", month); //예를들어 11월은 10을 뜻한다
+
+        var date = d.getDate();
+        console.log("date", date);
+
+        var day = d.getDay();
+        console.log("day", day);
+        //일요일 - 0
+        //월요일 - 1
+        //화요일 - 2
+        //수요일 - 3  .... 
+        
+        //시간 분 초
+        var hour = d.getHours();
+        var minute = d.getMinutes();
+        var second = d.getSeconds();
+
+        //타임존
+        ///예들 들어 2021.03.30 12:23:33
+        //2021.03.30 03:23:33
+
+        //
+
+        //Sun Nov 21 2021 18:46:57 GMT+0900
+
+        //month 월인경우에는 0 부터 시작 1월 - 0
+        //day 일자인경우는 1 부터 시작  1 - 1
+        var d = new Date(2021,3,27,11,14,23);
+        console.log(d);
+
+        //2021-03-21, 2021.03.21
+        //월 일 년도 - Mar 21, 2021
+        var month_en = ["Jan", "Feb", "Mar"];
+        
+        //3월인경우 - 2
+        var mon = 2;
+        console.log(month_en[mon]);
+        
+
+   </script>
+ </body>
+</html>
